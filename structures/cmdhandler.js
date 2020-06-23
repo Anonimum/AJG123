@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { Collection } = require('discord.js');
-const { NancyPrefix } = process.env;
+const { NancyPrefix } = config.prefix;
 const cooldownmsg = require('../cores/cooldowns.json'); //kali aja butuh
 let jeda = cooldownmsg[Math.floor(Math.random() * cooldownmsg.length)];
 const categories = fs.readdirSync("./commands/");
