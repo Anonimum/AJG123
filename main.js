@@ -1,8 +1,7 @@
-require('dotenv').config();
 const Client = require('./structures/Client');
 const { MessageEmbed } = require('discord.js');
 const nancyClient = require('./structures/Client');
-const { prefix } = config.prefix;
+const { prefix } = require {'config.prefix'};
 const http = require('http');
 const express = require('express');
 const app = express();
