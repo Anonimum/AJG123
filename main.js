@@ -2,7 +2,7 @@ require('dotenv').config();
 const Client = require('./structures/Client');
 const { MessageEmbed } = require('discord.js');
 const nancyClient = require('./structures/Client');
-const { NancyPrefix } = process.env;
+const { prefix } = config.prefix;
 const http = require('http');
 const express = require('express');
 const app = express();
@@ -52,4 +52,4 @@ const client = new Client({
       if (message.content === `<@!${client.user.id}>` || message.content === `<@${client.user.id}>`)
   return message.channel.send(embed);
   });
-client.login(process.env.TOKEN)
+client.login(config.TOKEN)
