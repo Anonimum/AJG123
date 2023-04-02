@@ -4,7 +4,6 @@
 [![Discord](https://discordapp.com/api/guilds/544405286975176704/embed.png)](https://discord.gg/YmJEcFR)
 ![GitHub repo size](https://img.shields.io/github/repo-size/VeguiIzumi/simplebot)
 
-* BOT MADE BY Byu AKA AnakDajjal#3031
 * MINI BOT TEMPLATE FOR DISCORD USING NODE.JS
 * FOR FUN :)
 
